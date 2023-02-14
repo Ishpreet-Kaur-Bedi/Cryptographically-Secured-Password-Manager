@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap');
+
+body{
+    line-height: 1.8;
+    color: #5B8FB9;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+    color:#301E67 ;
+}
+
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+img{
+    width: 100%;
+}
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.navbar .nav-link{
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+
+ .navbar-light .navbar-nav .nav-link.active{
+    color: #B6EADA;
+}
+#btnpersonal,#btnbusiness{
+    border-radius: 50px;
+    background-color: #301e67;
+    color: white;
+}
+//hover ka code abhi final nhi hai
+
+.logo-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #301e67 !important;}
+    #home{
+        display: flex;
+        align-items: center;
+    }
+#home h1{
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+
+}
+#home p{
+    max-width: 550px;
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 170px;
+
+
+}
+.btn{
+    padding: 12px 28px;
+}

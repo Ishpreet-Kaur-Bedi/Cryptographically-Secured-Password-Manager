@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ensemble Password Manager</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand logo-text" href="#">Ensemble</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h1 class="display-4">Password Management from Anywhere</h1>
+            <p class="justify-content-center">
+              <strong
+                >Life is happening online. Work. Play. Family and friends.
+                LastPass puts your digital life at your fingertips, simply and
+                securely.</strong
+              >
+            </p>
+            <div class="btn-row">
+              <div class="col-sm-12 text-center">
+                <a href="#login">
+                  <button
+                    id="btnpersonal"
+                    class="btn btn-primary btn-md center-block"
+                    style="width: 200px"
+                    OnClick="btnSearch_Click"
+                  >
+                    Personal
+                  </button>
+                </a>
+                <button
+                  id="btnbusiness"
+                  class="btn btn-danger btn-md center-block"
+                  style="width: 200px"
+                  OnClick="btnClear_Click"
+                >
+                  Business
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <h3>Log In and go</h3>
+          <p>
+            Once you save a password in LastPass, you'll always have it when you
+            need it; logging in is fast and easy.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3>Passwordless login</h3>
+          <p>
+            Gain instant access to your LastPass vault by using the LastPass
+            Authenticator instead of your master password.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3>Generate strong passwords</h3>
+          <p>
+            The built-in password generator creates long, randomized passwords
+            that protect against hacking.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <h3>Store digital records</h3>
+          <p>
+            Insurance cards, memberships, Wi-Fi passwords... keep all your notes safe and easy to find.
+          </p>
+        </div>   
+        <div class="feature-box col-lg-4">
+          <h3>Share effortlessly</h3>
+          <p>
+            Some things shouldn't be sent in a text. Conveniently and safely share
+            passwords and notes with anyone.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <h3>Dark web monitoring</h3>
+          <p>
+            Stop worrying about data breaches. Get alerts if your personal
+            information is at risk.
+      </div>
+
+      
+        </p>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
